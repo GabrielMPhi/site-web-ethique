@@ -1,23 +1,4 @@
-name: Deploy MkDocs
-on:
-  push:
-    branches: [ main ]   # adapte si ta branche par défaut est "master"
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - run: pip install mkdocs mkdocs-material
-
-      # (optionnel) fail si lien/cible manquants
-      - run: mkdocs build --strict
-
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+site_name: My site
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
