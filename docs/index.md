@@ -1,9 +1,8 @@
 # Bienvenue
 
-Bienvenue sur mon site professionnel. Vous trouverez ici **le plan du cours**, des **documents PDF**, et des **ressources**.
+Bienvenue sur mon site professionnel. Vous trouverez ici **des cas**, des **des références**, et des **ressources générales**.
 
-- 👉 [Plan du cours](cours.md)
-- 📎 [Exemple de PDF](assets/pdfs/exemple.pdf)
+- 👉 [Référence vidéos](refvideo.md)
 
-!!! tip "Conseil aux étudiants"
-    Téléchargez les documents avant la séance.
+!!! note "Bon cours"
+    Ok.
